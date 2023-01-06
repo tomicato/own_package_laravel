@@ -1,0 +1,27 @@
+{
+  "name": "tomicato/posts",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey",
+      "email": "sfinks134@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tomicato\\Posts\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tomicato\\Posts\\Providers\\PostsServiceProvider"
+      ]
+    }
+  }
+}
